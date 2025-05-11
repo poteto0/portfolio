@@ -2,7 +2,7 @@ name: Deploy Worker
 on:
   push:
     branches:
-      - deploy
+      - main
 jobs:
   deploy-worker:
     runs-on: ubuntu-latest
